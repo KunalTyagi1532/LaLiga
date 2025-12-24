@@ -1,12 +1,12 @@
-package com.example.laliga2022.ui.navigation
+package com.example.laliga2022.views.components.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.laliga2022.ui.screens.StandingsScreen
-import com.example.laliga2022.ui.screens.TeamDetailScreen
+import com.example.laliga2022.views.screens.StandingsScreen
+import com.example.laliga2022.views.screens.TeamDetailScreen
 import com.example.laliga2022.vm.StandingsViewModel
 
 @Composable

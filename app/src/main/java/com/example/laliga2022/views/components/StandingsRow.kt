@@ -1,4 +1,4 @@
-package com.example.laliga2022.ui.components
+package com.example.laliga2022.views.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
