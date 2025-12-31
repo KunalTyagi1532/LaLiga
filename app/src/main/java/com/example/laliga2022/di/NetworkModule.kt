@@ -20,7 +20,7 @@ object NetworkModule {
         OkHttpClient.Builder()
             .addInterceptor { chain ->
                 val request = chain.request().newBuilder()
-                    .addHeader("X-RapidAPI-Key", "a871cc05acmshcc9670047bf4093p190628jsn2e521bdafd6d")
+                    .addHeader("X-RapidAPI-Key", "paste your own key")
                     .addHeader("X-RapidAPI-Host", "laliga-standings.p.rapidapi.com")
                     .build()
                 chain.proceed(request)
